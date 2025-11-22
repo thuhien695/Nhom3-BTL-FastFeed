@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 19, 2025 lúc 06:21 AM
+-- Thời gian đã tạo: Th11 22, 2025 lúc 04:52 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -52,7 +52,7 @@ INSERT INTO `comments` (`id`, `post_id`, `user_id`, `content`, `created_at`) VAL
 (10, 3, 3, 'Mọi người nhớ nghé Hội An nha, không những con người thân thiện mà đồ ăn ở đây cũng rất ngon nữa!', '2025-11-22 03:21:29'),
 (11, 2, 1, 'Cảm ơn những ý kiến của mọi người nhé! Chúc mọi người có những chuyến đi thật đáng nhớ!', '2025-11-22 03:23:03'),
 (12, 3, 1, 'Cảm ơn những chia sẻ của mọi người. Chúc mọi người luôn vui vẻ, bình an và cùng đón nhận những bài viết tiếp theo nhé!', '2025-11-12 03:24:47'),
-(13, 4, 1, 'Mọi người đã ai đến Huế chưa nhỉ? Nêu cảm nhận và chia sẻ để mọi người cùng biết nhé!', '2025-11-22 05:25:22');
+(13, 4, 1, 'Mọi người đã ai đến Huế chưa nhỉ? Nêu cảm nhận và chia sẻ để mọi người cùng biết nhé!', '2025-11-22 04:25:25');
 
 -- --------------------------------------------------------
 
@@ -110,10 +110,10 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `fullname`, `email`, `password`, `role`, `created_at`) VALUES
-(1, 'Admin', 'admin@gmail.com', '$2y$10$OdhcWeim8vhptQPp8rjMnuNJqGHNb1eMaUzadnR72rEh.Cr3H.Rc2', 'admin', '2025-11-21 01:08:38'),
-(2, 'Nguyễn Văn A', 'user@gmail.com', '$2y$10$OdhcWeim8vhptQPp8rjMnuNJqGHNb1eMaUzadnR72rEh.Cr3H.Rc2', 'user', '2025-11-21 01:09:07'),
-(3, 'Nguyễn Văn B', 'user2@gmail.com', '$2y$10$1/1Oi.F1a0fGO7oPGlH3muIAPFl7xvsKyDnKj4Jbq0TuSkfJ3.SVW', 'user', '2025-11-21 01:10:06'),
-(4, 'Nguyễn Văn C', 'user3@gmail.com', '$2y$10$vwDVqcaYzjPLrSCirENT6uf9NzgYv2jy3aOxkH.XkE1TNnTVGVo8e', 'user', '2025-11-21 01:11:27');
+(1, 'Admin', 'admin@gmail.com', '$2y$10$OdhcWeim8vhptQPp8rjMnuNJqGHNb1eMaUzadnR72rEh.Cr3H.Rc2', 'admin', '2025-11-22 01:08:38'),
+(2, 'Nguyễn Văn A', 'user@gmail.com', '$2y$10$OdhcWeim8vhptQPp8rjMnuNJqGHNb1eMaUzadnR72rEh.Cr3H.Rc2', 'user', '2025-11-22 01:09:07'),
+(3, 'Nguyễn Văn B', 'user2@gmail.com', '$2y$10$1/1Oi.F1a0fGO7oPGlH3muIAPFl7xvsKyDnKj4Jbq0TuSkfJ3.SVW', 'user', '2025-11-22 01:10:06'),
+(4, 'Nguyễn Văn C', 'user3@gmail.com', '$2y$10$vwDVqcaYzjPLrSCirENT6uf9NzgYv2jy3aOxkH.XkE1TNnTVGVo8e', 'user', '2025-11-22 01:11:27');
 
 --
 -- Chỉ mục cho các bảng đã đổ
