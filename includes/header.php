@@ -30,7 +30,7 @@
                 <!-- Logo -->
                 <div class="col-md-3">
                     <a href="<?php echo ROOT_URL; ?>" class="logo">
-                    <img src="<?php echo ROOT_URL; ?>assets/images/logo.jpg" alt="Web Logo" class="me-2 rounded-circle" style="height: 50px;">
+                    <img src="<?php echo ROOT_URL; ?>assets/images/logoweb.jpg" alt="Web Logo" class="me-2 rounded-circle" style="height: 50px;">
                     <img src="<?php echo ROOT_URL; ?>assets/images/fastfeed.png" alt="FastFeed Logo" class="me-2" style="height: 40px;">
                     </a>
                 </div>

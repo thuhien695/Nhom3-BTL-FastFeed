@@ -30,7 +30,7 @@
             <div class="col-md-3 col-lg-2 d-md-block admin-sidebar">
                 <div class="text-center">
                     <a href="<?php echo ROOT_URL; ?>" class="d-flex align-items-center justify-content-center mb-3">
-                        <img src="<?php echo ROOT_URL; ?>assets/images/logo.jpg" alt="Web Logo" class="me-2 rounded-circle" style="height: 50px;">
+                        <img src="<?php echo ROOT_URL; ?>assets/images/logoweb.jpg" alt="Web Logo" class="me-2 rounded-circle" style="height: 50px;">
                         <img src="<?php echo ROOT_URL; ?>assets/images/fastfeed.png" alt="FastFeed Logo" class="me-2" style="height: 40px;">
                     </a>
                 </div>
