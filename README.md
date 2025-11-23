@@ -90,18 +90,3 @@ Email: user@gmail.com
 
 Mật khẩu: 123123
 
-📂 Cấu trúc thư mục FastFeed/
-├── admin/
-│   ├── includes/
-│   │   ├── header.php
-│   │   └── footer.php
-│   ├── index.php
-│   ├── posts.php
-│   ├── create_post.php
-│   ├── edit_post.php
-│   └── comments.php
-├── assets/
-│   ├── css/
-│   └── js/
-├── images/
-└── config/
